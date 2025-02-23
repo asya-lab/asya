@@ -1,0 +1,62 @@
+body {
+  color: white;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-image: url('hacker5.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/*h1, h2, h3, p, span {
+  text-shadow: 0 0 5px #132172, 0 0 10px #1d3fa5, 0 0 15px #0d17d8;
+  font-weight: bold;
+  transition: text-shadow 0.3s ease-in-out;
+ 
+}
+
+h1:hover, h2:hover, h3:hover, p:hover, span:hover {
+  text-shadow: 0 0 10px #b00ead, 0 0 20px #1d3fa5, 0 0 30px #0d17d8;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button-container {
+  display: flex;
+  flex-direction: column; /* يجعل الأزرار تحت بعض */
+  align-items: center; /* يوسّط الأزرار */
+  justify-content: space-evenly; /* يوزعها بالتساوي */
+  height: 40vh; /* تحديد ارتفاع الحاوية */
+  gap: 15px; /* تحديد المسافة بين الأزرار */
+}
+
+.button {
+  width: 300px; /* عرض ثابت للأزرار */
+  height: 50px; /* ارتفاع ثابت */
+  background: linear-gradient(45deg, #b3e5fc, #64b5f6);
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  line-height: 5px; /* يجعل النص في المنتصف عمودياً */
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(45deg, #64b5f6, #2196f3);
+}

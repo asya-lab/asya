@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>السيناريوهات</title>
+    <link rel="stylesheet" href="style6.css"> <!-- ربط ملف CSS -->
+
+
+
+    <style>
+        /* استيراد خط جميل */
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+  
+      
+     
+  
+  
+  
+      
+        /* تصميم العنوان */
+        h1,h3 {
+            font-size: 28px;
+            color: #e90914; /* بنفسجي فاتح */
+            text-shadow: 0 0 10px rgb(36, 25, 183);
+            margin-bottom: 30px;
+        }
+  
+  
+        /* تصميم الأزرار */
+        .button {
+            background: linear-gradient(45deg, #254786, #000101);/* وردي وأزرق سماوي */
+            border:none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: 18px;
+            color: #eae0e0; /* لون نص غامق */
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            box-shadow: 0 5px 15px rgba(255, 182, 193, 0.3);
+        }
+  
+        /* تأثير عند تمرير الماوس */
+        .button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 5px 25px rgba(173, 216, 230, 0.6);
+        }
+  
+        /* زر مميز خاص باللعبة */
+        .special-button {
+            background: linear-gradient(45deg, #f8a1d1, #87ceeb); /* لون مميز */
+            padding: 15px 30px;
+            font-size: 20px;
+        }
+    </style>
+  
+    
+
+</head>
+<body>
+    <script src="script6.js"></script>
+    <h3>انت تتلقين
+         رسالة على بريدك الإلكتروني من شخص مجهول يقول إنه
+         يمتلك صورًا خاصة لكِ وتهددك بنشرها إذا لم تدفعي مبلغًا
+          كبيرًا من المال. ما الذي يجب أن تفعليه؟</h3>
+          <div class="button-container">
+          <button class="button" id="dema" onclick="plana()">الرد على الرسالة والتفاوض معه لمعرفة متطلباته </button>
+          <button class="button" id="demo"  onclick="planb()">الإبلاغ عن الحادث إلى الشرطة فورًا مع تقديم الأدلة المتوفرة </button>
+          <button class="button" id="demi" onclick="planc()">حذف الرسالة وتجاهل الموضوع تمامًا</button>
+          <button class="button" id="demt" onclick="pland()">مشاركة هذه الرسالة مع أصدقائك على وسائل التواصل الاجتماعي لتحذيرهم</button>
+          </div>
+
+
+
+
+
+
+
+
+          <h3>
+            لقد لاحظتِ مؤخرًا 
+            أنه تم تسجيل الدخول إلى حسابك على إحدى الشبكات الاجتماعية من جهاز غير معروف. ماذا يجب أن تفعلي؟</h3>
+        
+            <div class="button-container">
+                <button class="button" id="deman" onclick="plane()">تجاهل الملاحظة لأنكِ لا تتذكرين بالضبط إذا كنتِ قد سجلت الدخول من جهاز آخر.
+                </button>
+                <button class="button" id="demtn"  onclick="planf()">إغلاق الحساب على الفور بدون تغيير كلمة المرور</button>
+                <button class="button" id="demin" onclick="plang()">مراسلة الدعم الفني لهذه الشبكة الاجتماعية دون اتخاذ أي إجراءات شخصية</button>
+                <button class="button" id="demon" onclick="planh()">تغيير كلمة المرور فورًا وتفعيل المصادقة الثنائية على الحساب</button>
+                </div>
+
+
+
+                <h3>
+                    تتلقين رسالة عبر البريد
+                     الإلكتروني من شخص يدعي أنه من فريق
+                      الدعم الفني لشركتكِ، يطلب منكِ تحديث بيانات الحساب من خلال رابط مرفق. ماذا يجب أن تفعلي؟</h3>
+
+
+
+                      <div class="button-container">
+                        <button class="button" id="demann" onclick="plani()">فتح الرابط وتحديث البيانات، لأنكِ تتوقعين الرسالة</button>
+                        <button class="button" id="demtnn"  onclick="planj()">الرد على البريد الإلكتروني للاستفسار عن الرسالة قبل اتخاذ أي إجراء.</button>
+                        <button class="button" id="deminn" onclick="plank()">الاتصال بفريق الدعم باستخدام الرقم الرسمي للشركة و التحقق من البريد</button>
+                        <button class="button" id="demonn" onclick="planl()">حذف البريد الإلكتروني مباشرة دون فتح الرابط</button>
+                        </div>
+
+
+
+
+                        <h3>
+                            أنتِ في مقهى عام وتحتاجين إلى استخدام الإنترنت، وتجدين شبكة واي فاي مجانية. ماذا يجب أن تفعلي؟</h3>
+
+
+                            <div class="button-container">
+                                <button class="button" id="demana" onclick="planm()">الاتصال بالشبكة المجانية دون تفكير لأنكِ بحاجة إلى الإنترنت</button>
+                                <button class="button" id="demtna"  onclick="plann()">استخدام شبكة الواي فاي المجانيةولكن عبر تطبيق لحماية بياناتك</button>
+                                <button class="button" id="demina" onclick="plano()">استخدام الإنترنت عبر بيانات الهاتف المحمول بدلاً من شبكة الواي فاي العامة</button>
+                                <button class="button" id="demona" onclick="planp()">الاتصال بشبكة الواي فاي المجانية ولكن فقط لتصفح البريد الإلكتروني</button>
+                                </div>
+
+
+
+
+                                <h3>أرسل لك أحد أصدقائك رابطًا غريبًا عبر رسالة خاصة، وقال إنه يحتوي على صور رائعة لك.</h3>
+
+
+                                
+                            <div class="button-container">
+                                <button class="button" id="demanb" onclick="planq()"> تفتح الرابط فورًا لأن صديقك أرسله دون التفكير بالعواقب</button>
+                                <button class="button" id="demtnb"  onclick="planr()"> تتحقق من صحة الرابط وتسأل صديقك إن كان قد أرسله بنفسه</button>
+                                <button class="button" id="deminb" onclick="plans()">  تشاركه مع أصدقائك لمعرفة ما بداخله</button>
+                                </div>
+
+
+
+                        
+         
+         
+</body>
+</html>
