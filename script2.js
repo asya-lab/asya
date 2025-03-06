@@ -3,7 +3,7 @@ function danger(){
 }
 
 function game(){
-    window.location.href = "index5.html";
+    window.location.href = "index6.html";
 }
 
 function refer(){

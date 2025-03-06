@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>السيناريوهات</title>
+    <link rel="stylesheet" href="style8.css"> <!-- ربط ملف CSS -->
+
+
+
+    <style>
+        /* استيراد خط جميل */
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+  
+      
+     
+  
+  
+  
+      
+        /* تصميم العنوان */
+        h1,h3 {
+            font-size: 28px;
+            color: #e90914; /* بنفسجي فاتح */
+            text-shadow: 0 0 10px rgb(36, 25, 183);
+            margin-bottom: 30px;
+        }
+  
+  
+        /* تصميم الأزرار */
+        .button {
+            background: linear-gradient(45deg, #254786, #000101);/* وردي وأزرق سماوي */
+            border:none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: 18px;
+            color: #eae0e0; /* لون نص غامق */
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            box-shadow: 0 5px 15px rgba(255, 182, 193, 0.3);
+        }
+  
+        /* تأثير عند تمرير الماوس */
+        .button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 5px 25px rgba(173, 216, 230, 0.6);
+        }
+  
+        /* زر مميز خاص باللعبة */
+        .special-button {
+            background: linear-gradient(45deg, #f8a1d1, #87ceeb); /* لون مميز */
+            padding: 15px 30px;
+            font-size: 20px;
+        }
+    </style>
+  
+    
+
+</head>
+<body>
+    <script src="script8.js"></script>
+
+    
+    <h3>أرسل لك أحد أصدقائك رابطًا غريبًا عبر رسالة خاصة، وقال إنه يحتوي على صور رائعة لك.</h3>
+
+
+                                
+    <div class="button-container">
+        <button class="button" id="demanb" onclick="planq()"> تفتح الرابط فورًا لأن صديقك أرسله دون التفكير بالعواقب</button>
+        <button class="button" id="demtnb"  onclick="planr()"> تتحقق من صحة الرابط وتسأل صديقك إن كان قد أرسله بنفسه</button>
+        <button class="button" id="deminb" onclick="plans()">  تشاركه مع أصدقائك لمعرفة ما بداخله</button>
+
+        </div>
+        <button onclick="refer()">الرجوع الى الصفحة الصفحةالرئيسية</button>
+
+
+
+</body>

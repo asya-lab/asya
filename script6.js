@@ -21,71 +21,24 @@ function planc(){
 function pland(){
   document.getElementById("demt").innerHTML = "الرجاء المحاولة مرة اخرى!";
 }
+
+
+function refer(){
+  window.location.href = "index.html";
+}
  
-/////////////////////////////////////////////////////////////////////////////////
 
-function plane(){
-  document.getElementById("deman").innerHTML = "الرجاء المحاولة مرة اخرى!";
- 
-}
 
-function planf(){
-  document.getElementById("demtn").innerHTML = "الرجاء المحاولة مرة اخرى!";
-}
 
-function plang(){
-  document.getElementById("demin").innerHTML = "الرجاء المحاولة مرة اخرى!";
+
+
+function next(){
+  window.location.href = "index7.html";
 }
 
 
-function planh(){
-  document.getElementById("demon").innerHTML = "عمل رائع استمري بالتقدم";
-
-}
-
-///////////////////////////////////////////////////////////////////////////////////
-
-function plani(){
-  document.getElementById("demann").innerHTML = "الرجاء المحاولة مرة اخرى!";
- 
-}
-
-function planj(){
-  document.getElementById("demtnn").innerHTML = "الرجاء المحاولة مرة اخرى!";
-}
-
-function plank(){
-  document.getElementById("deminn").innerHTML = " عمل رائع استمري بالتقدم";
-
-}
 
 
-function planl(){
-  document.getElementById("demonn").innerHTML = "لرجاء المحاولة مرة اخرى!";
-
-}
-
-////////////////////////////////////////////////////////////////////////////////
-
-function planm(){
-  document.getElementById("demana").innerHTML = "الرجاء المحاولة مرة اخرى!";
- 
-}
-
-function plann(){
-  document.getElementById("demtna").innerHTML = "عمل رائع استمري بالتقدم"
-}
-
-function plano(){
-  document.getElementById("demina").innerHTML ="الرجاء المحاولة مرة اخرى!"
-
-}
-
-
-function planp(){
-  document.getElementById("demona").innerHTML = "لرجاء المحاولة مرة اخرى!";
-
-}
 
 ///////////////////////////////////////////////////////////////////////////////
 
@@ -109,21 +62,8 @@ function planl(){
 
 }
 
-////////////////////////////////////////////////////////////////////////////////
 
-function planq(){
-  document.getElementById("demanb").innerHTML = "الرجاء المحاولة مرة اخرى!";
- 
-}
 
-function planr(){
-  document.getElementById("demtnb").innerHTML = "عمل رائع استمري بالتقدم"
-}
-
-function plans(){
-  document.getElementById("deminb").innerHTML ="الرجاء المحاولة مرة اخرى!"
-
-}
 
 
 

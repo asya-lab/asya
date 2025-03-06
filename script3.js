@@ -1,5 +1,5 @@
 function refer(){
-    window.location.href = "index2.html"
+    window.location.href = "index.html";
 }
 
 function right(){
@@ -8,7 +8,7 @@ function right(){
 
 
 function game(){
-    window.location.href = "index5.html";
+    window.location.href = "index6.html";
 }
 
 
